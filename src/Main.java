@@ -1,6 +1,4 @@
-import LeetCode.*;
-
-import java.util.Arrays;
+import LeetCode.Solution43;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -52,8 +50,28 @@ public class Main {
 
 //        SolutionHeightChecker sol = new SolutionHeightChecker();
 //        int result = sol.heightChecker(new int[]{1,1,4,2,1,3});
-        SolutionThirdMaximumNumber sol = new SolutionThirdMaximumNumber();
-        int result = sol.thirdMax(new int[]{1,2,2,5,3,5});
-        System.out.println(result);
+//        String content;
+//        try {
+//            content = new String(Files.readAllBytes(Paths.get("src/LeetCode/solution_third_maximum_number.txt")));
+//        } catch (IOException e) {
+//            System.err.println("Lỗi đọc file: " + e.getMessage());
+//            return;
+//        }
+//
+//        int[] nums = Arrays.stream(content.split(","))
+//                .map(String::trim)
+//                .mapToInt(Integer::parseInt)
+//                .toArray();
+//
+//        SolutionThirdMaximumNumber sol = new SolutionThirdMaximumNumber();
+//        int result = sol.thirdMax(nums);
+
+//        SolutionFindAllNumbersDisappearedInAnArray sol = new SolutionFindAllNumbersDisappearedInAnArray();
+//        List<Integer> result =  sol.findDisappearedNumbers(new int[]{1,1});
+//
+//        System.out.println(Arrays.toString(result.toArray()));
+        Solution43 sol = new Solution43();
+        System.out.println(sol.multiply("123456789", "987654321"));
+
     }
 }
